@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.rowheader{
+    background-color: #F3D7B7;
+     padding: 25px 0 300px 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.firstrow{
+display: flex;
+position: relative;
+margin-top: 135px;
+ 
+}
+.title{
+font-size: 64px;
+font-weight: 700;
+}
+.p1{
+font-size: 18px;
+font-weight: 400;
+margin-top: 75px;
+line-height: 24px;
+}
+.img1{
+position: absolute;
+right: 0;
+}
+.img2{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 550px;
+    top: -80px;
+    transform: rotate(-25deg);
+}
+
+
+.section1{
+    padding: 160px 0 216px 0;
+}
+.middlerow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightp1{
+font-size: 48px;
+font-weight: 700;
+}
+.rightp2{
+font-size: 18px;
+font-weight: 400;
+color: #333333;
+margin-top: 60px;
+line-height: 25px;
+}
+
+.imgrow{
+    position: relative;
+}
+.middleimg{
+    position: absolute;
+    right: 0;
+    top: 50px;
+  
+}
+
+
+.section2{
+  background-color:  #C99B67;  
+  padding: 110px 0 105px 0;
+}
+
+.Sarlavha{
+font-size: 50px;
+font-weight: 700;
+color: white;
+}
+.endp{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+
+footer{
+    padding: 46px 0 73px 0;
+    background-color: #F3D7B7;
+}
+.rowfooter{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu2{
+    display: flex;
+    gap: 40px;
+}
+.menu2 li{
+list-style: none;
+}
+.menu2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+.icons{
+ display: flex;
+ gap: 30px;
+}
+i{
+    cursor: pointer;
+    font-size: 30px;
+    color: #333333;
+}
